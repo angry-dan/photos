@@ -4,7 +4,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "deploy": "parcel build src/index.html && firebase deploy"
   },
   "dependencies": {
     "autoprefixer": "^8.2.0",
