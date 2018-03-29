@@ -1,0 +1,29 @@
+<svg width="80px" height="90px" viewBox="0 0 80 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M232.83387,186.633918 L218.04368,206.970429 L214,204.029571 L228.566902,184.00008 C224.870093,180.881649 222.52184,176.215057 222.52184,171 C222.52184,161.611159 230.132999,154 239.52184,154 C248.910681,154 256.52184,161.611159 256.52184,171 C256.52184,180.388841 248.910681,188 239.52184,188 C237.147361,188 234.886584,187.513185 232.83387,186.633918 Z" id="path-1"></path>
+        <filter x="-63.5%" y="-52.9%" width="269.3%" height="234.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="6" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.730149872   0 0 0 0 0.722688192   0 0 0 0 0.722688192  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="6" dy="5" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feComposite in="shadowOffsetOuter2" in2="SourceAlpha" operator="out" result="shadowOffsetOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.489822491   0 0 0 0 0.489822491   0 0 0 0 0.489822491  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-202.000000, -140.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="5" d="M231.384525,184.376308 L231.985022,183.550625 L233.818226,184.335866 C235.603549,185.100598 237.5325,185.5 239.52184,185.5 C247.529969,185.5 254.02184,179.008129 254.02184,171 C254.02184,162.991871 247.529969,156.5 239.52184,156.5 C231.513711,156.5 225.02184,162.991871 225.02184,171 C225.02184,175.332375 226.929869,179.348491 230.178853,182.08916 L231.95702,183.589128 L231.384525,184.376308 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

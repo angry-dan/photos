@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "hyperscript-helpers": "^3.0.3",
+    "lodash.debounce": "^4.0.8",
+    "preact-transition-group": "^1.1.1",
+    "reset-css": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.6.2",
+    "popmotion": "^8.1.21",
+    "preact": "^8.2.7",
+    "whatwg-fetch": "^2.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+.search {
+  padding: 0 0 4rem 0;
+  text-align: center;
+}
+
+.search input {
+  appearance: textfield;
+  background: #2b2b2b;
+  background-image: url("./icon.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: solid 0.125rem white;
+  box-shadow: 6px 5px #7d7d7d80, 15px 20px 45px 11px #bab8b880;
+  color: white;
+  font-weight: 700;
+  padding: 0 4rem;
+  text-align: center;
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: #171717;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.7px;
+  line-height: 1.2;
+  padding: 4rem;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
