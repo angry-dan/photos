@@ -17,11 +17,11 @@ export default class PhotoPreloader extends Component {
 
   componentWillReceiveProps(newProps) {
     this.setState({ loaded: false });
-    this.preload(newProps);
+    this.preload(newProps.photos);
   }
 
   preload(photos) {
-    const urls = this.props.photos.map(p => p.url_m).map(
+    const urls = photos.map(p => p.url_m).map(
       url =>
         new Promise((resolve, reject) => {
           const i = new Image();
