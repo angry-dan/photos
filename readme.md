@@ -6,9 +6,9 @@ This is an experiment with displaying photos pulled from Flickr's API, using a m
 
 * Babel, because modern JavaScript tools are a must.
 * PostCSS, but not SASS. Because SASS is bloated, and actually just writing CSS is not hard.
-* Parcel instead of Webpack, because the defaults are sensible and it avoids a config file.
-* CSS animations. I actually wanted to use https://popmotion.io/ because I'm keen on it's funcitonal reactive style, but in reality it just didn't fit in with the declarative approach.
-* Preact without JSX, mostly as an experiment vs React. It was fun to work with a minimal toolset and helps to demonstrate how the underlying libraries are working.
+* [Parcel](https://parceljs.org/) instead of Webpack, because the defaults are sensible and it avoids a config file.
+* CSS animations. I actually wanted to use [Popmotion](https://popmotion.io/) because I'm keen on it's funcitonal reactive style, but in reality it just didn't fit in with the declarative approach.
+* [Preact](https://preactjs.com/) without JSX, mostly as an experiment vs React. It was fun to work with a minimal toolset and helps to demonstrate how the underlying libraries are working.
 
 # Build + run
 
