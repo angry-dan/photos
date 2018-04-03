@@ -11,5 +11,3 @@ import { h, render } from "preact";
 document.addEventListener("DOMContentLoaded", () => {
   render(h(App, { defaultSearch: "Avocado" }), document.body);
 });
-// TODO: Host on firebase.
-// TODO push code to github.
